@@ -1,4 +1,8 @@
 import { Project, SkillCategory, AcademicMilestone } from '../types/portfolio';
+import academicManagementImage from '../assets/images/project_ams_1793341594176.jpg';
+import ecommerceImage from '../assets/images/project_ecommerce_1793341594597.jpg';
+import farmerSupportImage from '../assets/images/project_farmer_support_1793341595286.jpg';
+import electronicsComparisonImage from '../assets/images/project_electronics_compare_1793341595397.jpg';
 
 export const PERSONAL_INFO = {
   name: 'Shaik Sameer',
@@ -24,7 +28,7 @@ export const PROJECTS: Project[] = [
       'A comprehensive Academic Management System designed to help colleges track syllabus completion, monitor subject-wise academic milestones, and organize institutional curriculum data efficiently.',
     fullDescription:
       'The Academic Management System (AMS) addresses the challenge colleges and technical institutions face in maintaining consistent curriculum velocity. Built with modern full-stack development patterns and React.js, AMS provides academic coordinators, department heads, and students with transparent, real-time views into subject progress, upcoming unit completion deadlines, and aggregate departmental progress charts.',
-    image: '/src/assets/images/project_ams_1793341594176.jpg',
+    image: academicManagementImage,
     keyFeatures: [
       'Track academic syllabus completion across multiple semesters and subjects',
       'Monitor subject-wise academic progress with visual milestone indicators',
@@ -51,7 +55,7 @@ export const PROJECTS: Project[] = [
       'A sleek, responsive e-commerce web platform engineered with React.js demonstrating online shopping workflows, product presentation, cart management, and fluid customer interactions.',
     fullDescription:
       'Engineered to showcase modern frontend web practices, this e-commerce platform provides an intuitive shopping journey. It features responsive grid-based product presentation, dynamic category filtering, smooth cart state synchronization, and checkout-ready interfaces optimized across mobile and desktop viewports.',
-    image: '/src/assets/images/project_ecommerce_1793341594597.jpg',
+    image: ecommerceImage,
     keyFeatures: [
       'User-friendly shopping interface with crisp product presentation',
       'Responsive web design adapting seamlessly from smartphones to ultra-wide displays',
@@ -77,7 +81,7 @@ export const PROJECTS: Project[] = [
       'A farmer-focused agricultural intelligence platform built to provide essential weather guidance, seasonal seed selection advisories, and transparent seed pricing to empower agrarian communities.',
     fullDescription:
       'Designed to bridge the information gap in rural agriculture, the Farmer Support Platform centralizes vital crop planning resources. Farmers can check seasonal weather parameters, discover high-yield seed varieties suited for specific soil conditions, and verify regional market rates to make informed purchasing and sowing decisions.',
-    image: '/src/assets/images/project_farmer_support_1793341595286.jpg',
+    image: farmerSupportImage,
     keyFeatures: [
       'Weather guidance tailored for critical farming phases and sowing periods',
       'Detailed information about seed varieties and recommended cultivation seasons',
@@ -103,7 +107,7 @@ export const PROJECTS: Project[] = [
       'A web platform designed to help consumers evaluate electronic devices by providing side-by-side technical specification comparisons, benchmark highlights, and value assessments.',
     fullDescription:
       'Shopping for consumer electronics often overwhelms users with conflicting spec sheets. This product comparison engine allows users to select gadgets across phones, audio gear, and laptops, placing their processors, display specs, battery capacities, and pricing into a clean, normalized differential matrix.',
-    image: '/src/assets/images/project_electronics_compare_1793341595397.jpg',
+    image: electronicsComparisonImage,
     keyFeatures: [
       'Explore and compare consumer electronic products side-by-side',
       'Interactive differential matrix highlighting key specification advantages',
